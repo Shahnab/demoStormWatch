@@ -1,0 +1,5 @@
+{
+  "name": "StormWatch 3D",
+  "description": "Real-time 3D tornado visualization and tracking using NOAA weather alerts and volumetric rendering.",
+  "requestFramePermissions": []
+}

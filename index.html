@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StormWatch 3D - Tornado Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/topojson-client@3" crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #e0f2fe; /* Sky blue-100 */
+        color: #0f172a; /* Slate-900 */
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      /* Custom scrollbar for search results */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.05);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
